@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<title>অধ্যায় ৩ • উপ–অধ্যায় ৩.২ • সাইটের গতি অপটিমাইজেশন ও ফলপ্রদতা যাচাই – রঙিন স্টাডি শিট</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --brand:#6c5ce7; --ink:#0b1021; --muted:#5b6078; --bg:#f8f9ff;
+  --easy:#27ae60; --easy-bg:#e9f7ef;
+  --medium:#e67e22; --medium-bg:#fff4e8;
+  --hard:#e74c3c; --hard-bg:#ffeceb;
+  --card:#ffffff; --line:#e8ebff;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:linear-gradient(180deg,#f7f7ff 0%, #f0f4ff 100%);
+  color:var(--ink); font:16px/1.6 "Noto Sans Bengali","SolaimanLipi","Siyam Rupali","Nikosh","Kalpurush",Arial, sans-serif;
+}
+.container{ max-width:1000px; margin:24px auto 56px; padding:0 16px;}
+.header{
+  background:linear-gradient(135deg,#6c5ce7 0%,#8e8df3 100%);
+  color:#fff; border-radius:14px; padding:18px 20px; box-shadow:0 8px 24px rgba(108,92,231,.25);
+  margin-bottom:18px;
+}
+.header h1{margin:0 0 4px; font-size:26px}
+.header p{margin:0; opacity:.95}
+.legend{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px}
+.badge{display:inline-block; font-size:12px; padding:4px 10px; border-radius:999px; font-weight:700; letter-spacing:.2px}
+.badge.s{background:#ffffff22; color:#fff; border:1px solid #ffffff55}
+.badge.r{background:#00000020; color:#fff; border:1px solid #ffffff55}
+.badge.easy{background:var(--easy-bg); color:var(--easy); border:1px solid #cdebd7}
+.badge.medium{background:var(--medium-bg); color:var(--medium); border:1px solid #ffd7b3}
+.badge.hard{background:var(--hard-bg); color:var(--hard); border:1px solid #ffc7c2}
+.section-title{
+  margin:18px 0 12px; font-size:20px; color:var(--brand);
+  border-left:6px solid var(--brand); padding-left:10px;
+}
+.qcard{
+  background:var(--card); border-radius:14px; padding:14px 14px 10px; margin:12px 0 14px;
+  border:1px solid var(--line); box-shadow:0 6px 18px rgba(14,20,80,.06);
+  position:relative;
+}
+.qcard.easy{border-left:6px solid var(--easy); background:linear-gradient(180deg,#ffffff 0%, #f7fbf9 100%)}
+.qcard.medium{border-left:6px solid var(--medium); background:linear-gradient(180deg,#ffffff 0%, #fff9f2 100%)}
+.qcard.hard{border-left:6px solid var(--hard); background:linear-gradient(180deg,#ffffff 0%, #fff6f6 100%)}
+.qtop{display:flex; align-items:center; gap:8px; margin-bottom:6px; flex-wrap:wrap}
+.code{
+  font:600 13px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  background:#eef0ff; color:#3a3f74; padding:2px 8px; border-radius:8px; border:1px solid #dfe3ff;
+}
+.meta{color:var(--muted); font-size:13px}
+.qtitle{font-size:17px; margin:6px 0 4px}
+ul{margin:6px 0 6px 20px}
+.footer{
+  margin-top:24px; padding:14px; text-align:center; color:#444; background:#fff; border:1px solid #eaeaff; border-radius:12px
+}
+small{color:#6b6f8a}
+</style>
+</head>
+<body>
+<div class="container">
+ <a href="index.html" aria-label="Home"
+   style="position:fixed;right:16px;bottom:16px;z-index:9999;display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:12px;color:#01649e;text-decoration:none;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);box-shadow:0 8px 18px rgba(0,0,0,.25);font:600 14px/1 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif">
+  <!-- Home icon -->
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+       stroke-linecap="round" stroke-linejoin="round" width="18" height="18" aria-hidden="true">
+    <path d="M3 12l9-9 9 9"/><path d="M9 21V9h6v12"/>
+  </svg>
+  <span>Back To Home</span>
+</a>
+  <div class="header">
+    <h1>⚡ অধ্যায় ৩ • উপ–অধ্যায় ৩.২ — সাইটের গতি অপটিমাইজেশন ও ফলপ্রদতা যাচাই</h1>
+    <p>সংক্ষিপ্ত (২–৫ লাইন) ও রচনামূলক (১০–১৫ পয়েন্ট) উত্তর—রঙিন, সহজ ও পরীক্ষাভিত্তিক উপস্থাপনা।</p>
+    <div class="legend">
+      <span class="badge s">[S] সংক্ষিপ্ত</span>
+      <span class="badge r">[R] রচনামূলক</span>
+      <span class="badge easy">★ সহজ</span>
+      <span class="badge medium">★★ মাঝারি</span>
+      <span class="badge hard">★★★ উচ্চ</span>
+    </div>
+  </div>
+
+  <h2 class="section-title">সংক্ষিপ্ত প্রশ্নোত্তর [S]</h2>
+
+  <div class="qcard easy">
+    <div class="qtop"><span class="code">3.2-S01</span><span class="badge easy">★</span></div>
+    <div class="qtitle">🔁 POST ও PUT-এর পার্থক্য</div>
+    <ul>
+      <li>POST: নতুন রিসোর্স তৈরি/প্রসেস সাবমিশন; non-idempotent (বারবার করলে ভিন্ন ফল)।</li>
+      <li>PUT: নির্দিষ্ট URL-এর রিসোর্স সম্পূর্ণ আপডেট/রিপ্লেস; idempotent (বারবার করলে একই ফল)।</li>
+      <li>REST-এ POST = create, PUT = full update (PATCH = partial update)।</li>
+    </ul>
+  </div>
+
+  <div class="qcard easy">
+    <div class="qtop"><span class="code">3.2-S02</span><span class="badge easy">★</span></div>
+    <div class="qtitle">🎨 CSS ও ⚙️ জাভাস্ক্রিপ্ট—তুলনা</div>
+    <ul>
+      <li>CSS: স্টাইল/লেআউট (প্রেজেন্টেশন); declarative; পারফরম্যান্স-ফ্রেন্ডলি।</li>
+      <li>JS: আচরণ/ইন্টারঅ্যাকশন (লজিক); imperative; DOM/ইভেন্ট/ফেচ।</li>
+      <li>ভূমিকা আলাদা রাখলে কোড বোধগম্য ও দ্রুত লোড হয়।</li>
+    </ul>
+  </div>
+
+  <div class="qcard easy">
+    <div class="qtop"><span class="code">3.2-S03</span><span class="badge easy">★</span></div>
+    <div class="qtitle">📡 HTTP মেথড বলতে কী?</div>
+    <ul>
+      <li>HTTP রিকোয়েস্টের উদ্দেশ্য জানাতে ব্যবহৃত ক্রিয়া/verb (GET, POST ইত্যাদি)।</li>
+      <li>প্রত্যেক মেথডের সেফ/আইডেমপোটেন্ট গুণাগুণ ও ব্যবহারক্ষেত্র নির্দিষ্ট।</li>
+    </ul>
+  </div>
+
+  <div class="qcard easy">
+    <div class="qtop"><span class="code">3.2-S04</span><span class="badge easy">★</span></div>
+    <div class="qtitle">🟨 জাভাস্ক্রিপ্ট কী?</div>
+    <ul>
+      <li>ব্রাউজার/Node-এ চলা স্ক্রিপ্টিং ভাষা—UI ইন্টারঅ্যাকশন, ডেটা ফেচ, SPA ইত্যাদি।</li>
+      <li>লাইব্রেরি/ফ্রেমওয়ার্ক: React, Vue, Angular; টুলচেইন: NPM/Webpack/Vite।</li>
+    </ul>
+  </div>
+
+  <div class="qcard easy">
+    <div class="qtop"><span class="code">3.2-S05</span><span class="badge easy">★</span></div>
+    <div class="qtitle">📈 GTmetrix কী?</div>
+    <ul>
+      <li>স্পিড টেস্ট টুল—Lighthouse/Waterfall দিয়ে লোড অ্যানালাইসিস, LCP/TBT/CLS দেখায়।</li>
+      <li>বটলনেক, ব্লকিং রিসোর্স, ক্যাশিং/ইমেজ অপ্টিমাইজ সাজেশন দেয়।</li>
+    </ul>
+  </div>
+
+  <div class="qcard easy">
+    <div class="qtop"><span class="code">3.2-S06</span><span class="badge easy">★</span></div>
+    <div class="qtitle">⬇️ GET মেথড কী?</div>
+    <ul>
+      <li>রিসোর্স পড়ে আনার সেফ/আইডেমপোটেন্ট মেথড; সাধারণত URL কুয়েরি-স্ট্রিং ব্যবহার।</li>
+      <li>ক্যাশেবল, বুকমার্কেবল; সংবেদনশীল ডেটা পাঠাতে অনিরাপদ।</li>
+    </ul>
+  </div>
+
+  <div class="qcard easy">
+    <div class="qtop"><span class="code">3.2-S07</span><span class="badge easy">★</span></div>
+    <div class="qtitle">🧾 HEAD মেথড কী?</div>
+    <ul>
+      <li>GET-এর মতো, তবে বডি ছাড়া শুধু হেডার ফেরত দেয়; এক্সিস্টেন্স/সাইজ/ক্যাশ-ভ্যালিডেশন চেক।</li>
+      <li>লিংক যাচাই/মনিটরিং/কন্ডিশনাল রিকোয়েস্টে কার্যকর।</li>
+    </ul>
+  </div>
+
+  <div class="qcard easy">
+    <div class="qtop"><span class="code">3.2-S08</span><span class="badge easy">★</span></div>
+    <div class="qtitle">📊 Pingdom কী?</div>
+    <ul>
+      <li>পারফরম্যান্স টেস্ট ও আপটাইম মনিটরিং টুল—লোড টাইম, ওয়াটারফল, বটলনেক দেখায়।</li>
+      <li>ভৌগোলিক অবস্থানভিত্তিক টেস্ট, অ্যালার্ট/রিপোর্টিং সুবিধা।</li>
+    </ul>
+  </div>
+
+  <h2 class="section-title">রচনামূলক প্রশ্নোত্তর [R]</h2>
+
+  <div class="qcard medium">
+    <div class="qtop"><span class="code">3.2-R01</span><span class="badge medium">★★</span><span class="meta">[বিএমটি-২৫]</span></div>
+    <div class="qtitle">🧱 ওয়েব ডিজাইনে HTML-এর ভূমিকা</div>
+    <ul>
+      <li>স্ট্রাকচার: শিরোনাম, অনুচ্ছেদ, তালিকা, মিডিয়া—ডকুমেন্টের কঙ্কাল তৈরি।</li>
+      <li>সেমান্টিক ট্যাগ: header/nav/main/article/aside/footer—অর্থবহ মার্কআপ।</li>
+      <li>অ্যাক্সেসিবিলিটি: landmark/ARIA, ফোকাস অর্ডার, ফর্ম লেবেল—স্ক্রিন রিডার-বন্ধু।</li>
+      <li>SEO: সেমান্টিক হেডিং, meta/title/alt, স্কিমা মার্কআপ—সার্চে সহায়ক।</li>
+      <li>রেসপন্সিভ: meta viewport, ছবি srcset/sizes, picture—ডিভাইসভেদে মানিয়ে নেওয়া।</li>
+      <li>পারফরম্যান্স: সঠিক অর্ডারে স্ক্রিপ্ট/লিংক, ডিফার/প্রিলোড—রেন্ডার ব্লকিং কমানো।</li>
+      <li>ফর্ম/ডেটা: form/input/validation—ইন্টারঅ্যাকশন/সাবমিশন।</li>
+      <li>কম্পোনেন্টাইজেশন: পুনঃব্যবহারযোগ্য সেকশন/প্যাটার্ন—ডিজাইন সিস্টেম সহায়ক।</li>
+      <li>ইন্টারঅপারেবিলিটি: CSS/JS/ARIA/Schema-এর সাথে সমন্বয়—সম্পূর্ণ UX।</li>
+      <li>প্রগ্রেসিভ এনহান্সমেন্ট: JS না থাকলেও বেসিক কন্টেন্ট অ্যাক্সেসযোগ্য রাখা।</li>
+      <li>রক্ষণাবেক্ষণ: পরিচ্ছন্ন, ভ্যালিড HTML কোড—বাগ/কস্ট কমায়।</li>
+    </ul>
+  </div>
+
+  <div class="qcard medium">
+    <div class="qtop"><span class="code">3.2-R02</span><span class="badge medium">★★</span></div>
+    <div class="qtitle">📡 HTTP কী? HTTP মেথডগুলো বর্ণনা</div>
+    <ul>
+      <li>HTTP: Hypertext Transfer Protocol—ক্লায়েন্ট–সার্ভার যোগাযোগের স্টেটলেস প্রোটোকল; HTTPS = HTTP+TLS।</li>
+      <li>GET: রিড-অনলি, সেফ/আইডেমপোটেন্ট; ক্যাশেবল/বুকমার্কেবল।</li>
+      <li>HEAD: শুধু হেডার; লিংক/ক্যাশ চেক।</li>
+      <li>POST: সাবমিট/ক্রিয়েট; non-idempotent; ফর্ম/আপলোড।</li>
+      <li>PUT: নির্দিষ্ট রিসোর্স সম্পূর্ণ রিপ্লেস; idempotent।</li>
+      <li>PATCH: আংশিক আপডেট; সাধারণত JSON Patch/merge।</li>
+      <li>DELETE: রিসোর্স অপসারণ; idempotent (সাধারণত)।</li>
+      <li>OPTIONS: সার্ভার-সাপোর্টেড মেথড/CORS প্রি-ফ্লাইট।</li>
+      <li>TRACE: লুপব্যাক টেস্ট (নিরাপত্তার কারণে সচরাচর নিষ্ক্রিয়)।</li>
+      <li>CONNECT: টানেল স্থাপন (প্রক্সি/HTTPS)।</li>
+      <li>স্ট্যাটাস কোড: 2xx সাকসেস, 3xx রিডাইরেক্ট, 4xx ক্লায়েন্ট এরর, 5xx সার্ভার এরর।</li>
+      <li>ক্যাশিং হেডার: Cache-Control, ETag/If-None-Match, Last-Modified/If-Modified-Since।</li>
+    </ul>
+  </div>
+
+  <div class="qcard medium">
+    <div class="qtop"><span class="code">3.2-R03</span><span class="badge medium">★★</span></div>
+    <div class="qtitle">⚙️ ওয়েবসাইটের গতি নির্ণয়ের টুলস</div>
+    <ul>
+      <li>PageSpeed Insights: Core Web Vitals (LCP, INP, CLS) + Lab/Field Data, সাজেশন।</li>
+      <li>Lighthouse (Chrome DevTools): পারফরম্যান্স/অ্যাক্সেসিবিলিটি/SEO অডিট, স্কোর/সাজেশন।</li>
+      <li>GTmetrix: Waterfall, LCP/TBT/CLS, ব্লকিং রিসোর্স/ক্যাশিং বিশ্লেষণ।</li>
+      <li>WebPageTest: মাল্টি-স্টেপ, ফার্স্ট/রি-ভিজিট, ফিল্মস্ট্রিপ, থার্ড-পার্টি ইমপ্যাক্ট।</li>
+      <li>Pingdom: লোড টাইম, রিকোয়েস্ট ব্রেকডাউন, জিও-লোকেশনভিত্তিক টেস্ট।</li>
+      <li>Chrome DevTools Performance: টাইমলাইন, CPU/মেমরি প্রোফাইলিং, Coverage (unused CSS/JS)।</li>
+      <li>Core Web Vitals Extension: রিয়েল-টাইম মেট্রিক মনিটর।</li>
+      <li>SpeedCurve/Calibre: সিন্থেটিক টেস্ট + ট্রেন্ড/বাজেট মনিটরিং।</li>
+      <li>RUM (GA4/BigQuery/Sentry/Datadog): বাস্তব ইউজার ডেটা—ভৌগোলিক/ডিভাইসভিত্তিক ভ্যারিয়েশন।</li>
+      <li>UptimeRobot/New Relic: আপটাইম/APM—সার্ভার-সাইড বটলনেক ধরতে।</li>
+      <li>Cloudflare Analytics: CDN-লেয়ার ক্যাশ হিট/মিস, বট/ফায়ারওয়াল ইভেন্ট বিশ্লেষণ।</li>
+      <li>Best practice: রেফারেন্স অঞ্চল/ডিভাইস স্থির রাখুন, বারবার টেস্টের মিডিয়ান ধরুন।</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+  
+  </div>
+
+</div>
+</body>
+</html>
